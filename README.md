@@ -1,1 +1,2 @@
-# mathephor-ceji.github.io
+# Ce Ji
+PhD student, Peking University
