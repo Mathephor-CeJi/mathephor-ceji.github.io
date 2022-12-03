@@ -1,9 +1,11 @@
 # Ce Ji
-PhD student in Pure Mathematics, Peking University
+I am a PhD student in mathematics at Peking University, under supervision of Professor Shuai Guo. I am broadly interested in enumerative geometry, Gromov-Witten theory and mirror symmetry. Special interests are laid on Eynard-Orantin topological recursion, geometry of fermions and quantum geometry.
+Please feel OK to pronounce my name as you think how it should be pronounced:)
 
-## Education
-2011-2014 Shanxi Experimental Secondary School, Shanxi, China.
-2014-2018 B.S. in math, Peking University.
-2018-2024 Ph.D. in math, Peking University.
+## Research interests
 
 ## (Pre)Publications
+
+## Teaching
+
+## Miscellaneous
