@@ -1,2 +1,6 @@
 # Ce Ji
-PhD student, Peking University
+PhD student in Pure Mathematics, Peking University
+
+## Education
+
+## (Pre)Publications
