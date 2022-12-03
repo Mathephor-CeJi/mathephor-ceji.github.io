@@ -8,7 +8,7 @@ For non-native speaker in Chinese: Please feel OK to pronounce my name as you be
 
 
 ## (Pre)Publications
-1. **Ji, C**., Wang, Z. and Yang, C., 2022. Kac-Schwarz Operators of Type $ B $, Quantum Spectral Curves, and Spin Hurwitz Numbers. arXiv preprint arXiv:2211.08687.
+1. **Ji, C**., Wang, Z. and Yang, C., 2022. Kac-Schwarz Operators of Type $ B $, Quantum Spectral Curves, and Spin Hurwitz Numbers. arXiv preprint [arXiv:2211.08687](https://arxiv.org/abs/2211.08687).
 
 ## Teaching and Service
 **Teaching Assisiant:** Advanced Algebra (Spring 2022; Yufeng Zhao, Ph.D.), Lecturer in problem sessions.
@@ -19,4 +19,4 @@ For non-native speaker in Chinese: Please feel OK to pronounce my name as you be
 
 
 ## Miscellaneous
-I am also fascinated by the geometry of human hearts, and thus interested in counseling psychology, which serves as a measurement. 
+I am also fascinated by the geometry of human hearts, and thus interested in [counseling psychology](https://psychology.iastate.edu/directory/nan-zhao/), which serves as a measurement. 
