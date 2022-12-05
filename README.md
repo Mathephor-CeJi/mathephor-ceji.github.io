@@ -19,4 +19,4 @@ For non-native speaker in Chinese: Please feel OK to pronounce my name as you be
 
 
 ## Miscellaneous
-I am also fascinated by the geometry of human hearts, and thus interested in [counseling psychology](https://psychology.iastate.edu/directory/nan-zhao/), which serves as a great measurement. 
+I am also fascinated by the geometry of mysterious human hearts, and thus interested in [counseling psychology](https://psychology.iastate.edu/directory/nan-zhao/), which serves as a great measurement. 
