@@ -1,6 +1,6 @@
 # Ce Ji
 
-I am currently a Ph.D. student in Mathematics at School of Mathematical Sciences, Peking University, under supervision of Professor [Shuai Guo](https://sites.google.com/site/guoshuaimath/). I am broadly interested in mathematics inspired by modern physics, including enumerative geometry, mirror symmetry and Gromov-Witten theory. Their interplay with Eynard-Orantin topological recursion, fermionic approaches, integrable systems and quantum geometry are of special interests. My email is sms-jice@pku.edu.cn.
+I am currently a Ph.D. student in Mathematics at [School of Mathematical Sciences](http://english.math.pku.edu.cn/), [Peking University](https://english.pku.edu.cn/), under supervision of Professor [Shuai Guo](https://sites.google.com/site/guoshuaimath/). I am broadly interested in mathematics inspired by modern physics, including enumerative geometry, mirror symmetry and Gromov-Witten theory. Their interplay with Eynard-Orantin topological recursion, fermionic approaches, integrable systems and quantum geometry are of special interests. My email is sms-jice@pku.edu.cn.
 
 For non-native speakers in Chinese: Please feel OK to pronounce my name as you believe how it should be pronounced : )
 
@@ -38,7 +38,7 @@ Advanced Algebra: Spring 2022. Lecturer in problem sessions.
 
 Linear Algebra: Fall 2021. Lecturer in problem sessions. 
 
-**Couseling Assistant**
+**Couseling Assistant.**
 
 Fall 2017- Summer 2021. Providing career planning and psychological assistance for undergraduate math students in Peking University. Leader of Counseling Assistant Team in Fall 2019-Summer 2020.
 
