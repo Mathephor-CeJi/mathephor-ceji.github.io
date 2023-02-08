@@ -10,13 +10,13 @@ For non-native speakers in Chinese: Please feel OK to pronounce my name as you b
 
 School of Mathematical Sciences, Peking University.
 
-Advisor: Shuai Guo.
+Advisor: Dr. Shuai Guo.
 
 **B.S. in Mathematics and Applied Mathematics,** 2014-2018.
 
 School of Mathematical Sciences, Peking University.
 
-Thesis Advisor: Shuai Guo.
+Thesis Advisor: Dr. Shuai Guo.
 
 ## Research Interests
 **Enumerative Geometry, Mirror Symmetry and Gromov-Witten Theory.**
