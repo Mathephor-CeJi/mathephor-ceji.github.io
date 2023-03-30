@@ -23,6 +23,8 @@ Thesis Advisor: Dr. Shuai Guo.
 
 ## (Pre)Publications
 
+**A list of my publications can be found on [arXiv.](https://arxiv.org/find/grp_math/1/au:+Ji_Ce/0/1/0/all/0/1)**
+
 1. _Kac-Schwarz operators of type B, quantum spectral curves and spin Hurwitz numbers,_ with Zhiyuan Wang and Chenglang Yang. To appear in *Journal of Geometry and Physics*. [arXiv preprint.](https://arxiv.org/abs/2211.08687)
 
 2. _A bilinear fermionic form formula,_ with Shuai Guo and Chenglang Yang. In preparation.
