@@ -1,4 +1,4 @@
-# Ce Ji
+# Ce Ji 
 
 I am currently a Ph.D. student in Mathematics at [School of Mathematical Sciences](http://english.math.pku.edu.cn/), [Peking University](https://english.pku.edu.cn/), under supervision of Professor [Shuai Guo](https://sites.google.com/site/guoshuaimath/). I am broadly interested in mathematics inspired by modern physics, including enumerative geometry, mirror symmetry and Gromov-Witten theory. Their interplays with Eynard-Orantin topological recursion, fermionic approaches, integrable systems and quantum geometry are of special interests. My email is sms-jice@pku.edu.cn.
 
@@ -23,7 +23,7 @@ Thesis Advisor: Dr. Shuai Guo.
 
 ## (Pre)Publications
 
-1. _Kac-Schwarz operators of type B, quantum spectral curves and spin Hurwitz numbers,_ with Zhiyuan Wang and Chenglang Yang. [arXiv preprint.](https://arxiv.org/abs/2211.08687)
+1. _Kac-Schwarz operators of type B, quantum spectral curves and spin Hurwitz numbers,_ with Zhiyuan Wang and Chenglang Yang. To appear in *Journal of Geometry and Physics*. [arXiv preprint.](https://arxiv.org/abs/2211.08687)
 
 2. _A bilinear fermionic form formula,_ with Shuai Guo and Chenglang Yang. In preparation.
 
