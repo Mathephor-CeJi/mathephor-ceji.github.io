@@ -46,4 +46,12 @@ Fall 2017- Summer 2021. Providing career planning and psychological assistance f
 
 ## Miscellaneous
 
+**Useful links**
+
+1. A dictionary for special functions: [Digital Library of Mathematical Functions.](https://dlmf.nist.gov/)
+
+2. An online math editor, especially for drawing figures and obtaining tikz codes: [MathCha.](https://www.mathcha.io/)
+
+**Counseling Psy and Collaborator in life**
+
 I am also fascinated by the infinite-dimensional geometry of human hearts, and thus interested in [Counseling Psychology](https://psychology.iastate.edu/directory/nan-zhao/), which I believe serves as a great measurement of such geometry.
