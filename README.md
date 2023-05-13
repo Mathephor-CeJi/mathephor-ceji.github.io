@@ -29,7 +29,7 @@ Thesis Advisor: Dr. Shuai Guo.
 
 2. _A bilinear fermionic form formula,_ with Shuai Guo and Chenglang Yang. In preparation.
 
-3. _Negative r-spin classes and integrability,_ with Shuai Guo and Qingsheng Zhang. In preparation.
+3. _Topological recursion, KP integrability, and negative r-spin theory,_ with Shuai Guo and Qingsheng Zhang. In preparation.
 
 
 ## Teaching and Services
