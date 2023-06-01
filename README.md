@@ -1,4 +1,4 @@
-# Ce Ji 
+
 
 <img align=right src="https://github.com/Mathephor-CeJi/mathephor-ceji.github.io/blob/master/image/%E8%AF%81%E4%BB%B6%E7%85%A7390567.jpg" width=100px>
 
