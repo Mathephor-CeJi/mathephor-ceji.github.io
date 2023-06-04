@@ -3,6 +3,6 @@ plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
 title: Ce Ji
-description: 人生识数忧患始，加减粗记可以休。
+description: 
 show_downloads: false
 google_analytics:
