@@ -27,13 +27,13 @@ Thesis Advisor: Dr. Shuai Guo.
 
 ## (Pre)Publications
 
-**A list of my publications can be found on [arXiv](https://arxiv.org/find/grp_math/1/au:+Ji_Ce/0/1/0/all/0/1) or [MathSciNet.](https://mathscinet.ams.org/mathscinet/search/author.html?mrauthid=1554847)**
+**A list of my publications can be found on [arXiv](https://arxiv.org/find/grp_math/1/au:+Ji_Ce/0/1/0/all/0/1) or [MathSciNet.](https://mathscinet.ams.org/mathscinet/author?authorId=1554847)**
 
-1. _Kac-Schwarz operators of type B, quantum spectral curves and spin Hurwitz numbers,_ with Zhiyuan Wang and Chenglang Yang. [**Journal of Geometry and Physics**](https://www.sciencedirect.com/science/article/pii/S0393044023000839), Volume 189 (2023), Paper No. 104831, 20 pp.
+1. _Kac-Schwarz operators of type B, quantum spectral curves and spin Hurwitz numbers,_ with Zhiyuan Wang and Chenglang Yang. [_Journal of Geometry and Physics_](https://www.sciencedirect.com/science/article/pii/S0393044023000839), Volume 189 (2023), Paper No. 104831, 20 pp.
 
 2. _A bilinear fermionic form formula,_ with Shuai Guo and Chenglang Yang. In preparation.
 
-3. _Topological recursion, KP integrability, and negative r-spin theory,_ with Shuai Guo and Qingsheng Zhang. In preparation.
+3. _A generalization of the Witten conjecture through spectral curve,_ with Shuai Guo and Qingsheng Zhang. In preparation.
 
 
 ## Teaching and Services
