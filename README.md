@@ -33,7 +33,7 @@ Thesis Advisor: Dr. Shuai Guo.
 
 2. _A bilinear fermionic form formula,_ with Shuai Guo and Chenglang Yang. In preparation.
 
-3. _A generalization of the Witten conjecture through spectral curve,_ with Shuai Guo and Qingsheng Zhang. In preparation.
+3. _A generalization of the Witten conjecture through spectral curve,_ with Shuai Guo and Qingsheng Zhang. [_arXiv:2309.12271_](https://arxiv.org/abs/2309.12271)
 
 
 ## Teaching and Services
