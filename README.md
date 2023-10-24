@@ -1,9 +1,9 @@
 
 
+## Homepage of Ce Ji
 
 
-
-I am currently a Ph.D. student in Mathematics at [School of Mathematical Sciences](http://english.math.pku.edu.cn/), [Peking University](https://english.pku.edu.cn/), under supervision of Professor [Shuai Guo](http://english.math.pku.edu.cn/peoplefaculty/39.html). I am broadly interested in mathematics inspired by modern physics, including enumerative geometry, mirror symmetry and Gromov-Witten theory. Their interplays with Eynard-Orantin topological recursion, fermionic approaches, integrable systems and quantum geometry are of special interests. My email is sms-jice AT pku DOT edu DOT cn. 
+I am currently a final-year Ph.D. student in Mathematics at [School of Mathematical Sciences](http://english.math.pku.edu.cn/), [Peking University](https://english.pku.edu.cn/), under supervision of Professor [Shuai Guo](http://english.math.pku.edu.cn/peoplefaculty/39.html). I am broadly interested in mathematics inspired by modern physics, including enumerative geometry, mirror symmetry and Gromov-Witten theory. Their interplays with Eynard-Orantin topological recursion, fermionic approaches, integrable systems and quantum geometry are of special interests. My email is sms-jice AT pku DOT edu DOT cn. 
 
 
 For non-native speakers in Chinese: Please feel OK to pronounce my name as you believe how it should be pronounced : )
@@ -34,6 +34,10 @@ Thesis Advisor: Dr. Shuai Guo.
 2. _A bilinear fermionic form formula,_ with Shuai Guo and Chenglang Yang. In preparation.
 
 3. _A generalization of the Witten conjecture through spectral curve,_ with Shuai Guo and Qingsheng Zhang. [_arXiv:2309.12271_](https://arxiv.org/abs/2309.12271)
+
+## Conference co-organized
+
+_Workshop on Enumerative Geometry and KP/BKP Integrable Hierarchies_, September 4-8, 2023, Peking University.
 
 
 ## Teaching and Services
