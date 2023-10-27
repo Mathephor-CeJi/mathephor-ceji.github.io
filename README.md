@@ -6,8 +6,6 @@
 
 I am currently a final-year Ph.D. student in Mathematics at [School of Mathematical Sciences](http://english.math.pku.edu.cn/), [Peking University](https://english.pku.edu.cn/), under supervision of Professor [Shuai Guo](http://english.math.pku.edu.cn/peoplefaculty/39.html). I am broadly interested in mathematics inspired by modern physics, including enumerative geometry, mirror symmetry and Gromov-Witten theory. Their interplays with Eynard-Orantin topological recursion, fermionic approaches, integrable systems and quantum geometry are of special interests. My email is sms-jice AT pku DOT edu DOT cn.
 
-<img src="https://github.com/Mathephor-CeJi/mathephor-ceji.github.io/blob/master/image/Uetliberg.jpg" style="float: right; " width=50%>
-
 For non-native speakers in Chinese: Please feel OK to pronounce my name as you believe how it should be pronounced :)
 
 last update: October 25, 2023.
