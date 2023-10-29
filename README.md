@@ -9,14 +9,14 @@
   />
 I am currently a final-year Ph.D. student in Mathematics at [School of Mathematical Sciences](http://english.math.pku.edu.cn/), [Peking University](https://english.pku.edu.cn/), under supervision of Professor [Shuai Guo](http://english.math.pku.edu.cn/peoplefaculty/39.html). I am broadly interested in mathematics inspired by string theoretic physics, including enumerative geometry, mirror symmetry and Gromov-Witten theory. Their interplays with Eynard-Orantin topological recursion, fermionic approaches, integrable systems and quantum geometry are of special interests. 
 
-Currently I am visiting the research group of [Rahul Pandharipande](https://people.math.ethz.ch/~rahul/) at ETH Zürich.
+Currently I am visiting the research group of Professor [Rahul Pandharipande](https://people.math.ethz.ch/~rahul/) at ETH Zürich.
 
 My email is sms-jice AT pku DOT edu DOT cn.
 
 
 For non-native speakers in Chinese: Please feel OK to pronounce my name as you believe how it should be pronounced :)
 
-last update: October 25, 2023.
+last update: October 29, 2023.
 
 
 **Conference co-organized:**
