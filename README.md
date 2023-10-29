@@ -3,7 +3,7 @@
 
 <img
   src="image/Uetliberg.jpg"
-  width=400
+  width=300
   align="right"
   alt="Photo taken at Uetliberg"
   />
