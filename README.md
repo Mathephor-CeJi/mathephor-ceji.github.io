@@ -14,7 +14,7 @@ Currently I am visiting the research group of Professor [Rahul Pandharipande](ht
 My email is sms-jice AT pku DOT edu DOT cn.
 
 
-For non-native speakers in Chinese: Please feel OK to pronounce my name as you believe how it should be pronounced :)
+My name in Chinese characther is 季策. For non-native speakers in Chinese: Please feel OK to pronounce my name as you believe how it should be pronounced :)
 
 last update: October 29, 2023.
 
