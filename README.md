@@ -7,7 +7,7 @@
   align="right"
   alt="Photo taken at Uetliberg"
   />
-I am a final-year Ph.D. student in Mathematics at School of Mathematical Sciences, [Peking University](https://english.pku.edu.cn/), under supervision of Professor [Shuai Guo](https://scholar.google.com/citations?user=svAPQ_kAAAAJ&hl=en). I am broadly interested in mathematics inspired by string theoretic physics, including enumerative geometry, mirror symmetry and Gromov-Witten theory. Their interplays with Eynard-Orantin topological recursion, fermionic approaches, integrable systems and quantum geometry are of special interests. 
+I am a final-year Ph.D. student in Mathematics at School of Mathematical Sciences, [Peking University](https://english.pku.edu.cn/), under supervision of Professor [Shuai Guo](https://scholar.google.com/citations?user=svAPQ_kAAAAJ&hl=en). I am broadly interested in mathematics inspired by string theoretic physics, focusing on mirror symmetry and Gromov-Witten theory. Their interplays with Eynard-Orantin topological recursion, fermionic approaches, integrable systems and quantum geometry are of special interests. 
 
 Currently I am visiting the research group of Professor [Rahul Pandharipande](https://people.math.ethz.ch/~rahul/) at ETH Zürich.
 
@@ -34,4 +34,7 @@ _Workshop on Enumerative Geometry and KP/BKP Integrable Hierarchies_, September 
 
 3. _A generalization of the Witten conjecture through spectral curve,_ with Shuai Guo and Qingsheng Zhang. [_arXiv:2309.12271_](https://arxiv.org/abs/2309.12271)
 
+**Misc**
+
+A small piece of writing on [mirror symmetry](https://mp.weixin.qq.com/s/yPIZiwQ_ajWQejhQRD7ALQ) with S. Guo (in Chinese). 
 
