@@ -34,7 +34,7 @@ _Workshop on Enumerative Geometry and KP/BKP Integrable Hierarchies_, September 
 
 3. _A generalization of the Witten conjecture through spectral curve,_ with Shuai Guo and Qingsheng Zhang. [_arXiv:2309.12271_](https://arxiv.org/abs/2309.12271)
 
-**Misc**
+**Misc:**
 
-A small piece of writing on [mirror symmetry](https://mp.weixin.qq.com/s/yPIZiwQ_ajWQejhQRD7ALQ) with S. Guo (in Chinese). 
+A small piece of writing for BICMR on [mirror symmetry](https://mp.weixin.qq.com/s/yPIZiwQ_ajWQejhQRD7ALQ) with S. Guo (in Chinese). 
 
