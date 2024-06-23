@@ -22,4 +22,4 @@ social:
 - {icon: 'linkedin', link: 'https://linkedin.com/in/lenpaul'}
 
 contacts:
-- {name: 'Ce Ji', title: '', department: 'Department of Mathematical Sciences', institution: 'Tsinghua University', institution_address: 'Beijing, China', phone: '', email: 'sms-jice AT pku DOT edu DOT cn', office: 'Science Building', image: ''}
+- {name: 'Ce Ji', title: 'Postdoctoral Fellow', department: 'Department of Mathematical Sciences', institution: 'Tsinghua University', institution_address: 'Beijing, China', phone: '', email: 'sms-jice AT pku DOT edu DOT cn', office: 'Science Building', image: ''}
