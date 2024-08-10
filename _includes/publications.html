@@ -1,14 +1,14 @@
 <div class="row g-5 mb-5">
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Publications</h3>
+    <p>A list of publications can be found on <a href="https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term=Ce+Ji&terms-0-field=author&classification-mathematics=y&classification-physics=y&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first">arXiv</a>
+        or <a href="https://mathscinet.ams.org/mathscinet/author?authorId=1554847">MathSciNet</a>.</p>
     {% if page.title == "Home" %}
       {% for item in site.data.publications.featured %}
         <p><a href="{{ item.url }}">{{ item.name }}</a> {{  item.author }} {{  item.journal }}.</p>
       {% endfor %}
     {% else %}
       {% for item in site.data.publications.index %}
-        <p>A list of publications can be found on <a href="https://arxiv.org/search/advanced?advanced=&terms-0-operator=AND&terms-0-term="Ce+Ji"&terms-0-field=author&classification-mathematics=y&classification-physics=y&classification-physics_archives=all&classification-include_cross_list=include&date-filter_by=all_dates&date-year=&date-from_date=&date-to_date=&date-date_type=submitted_date&abstracts=show&size=50&order=-announced_date_first">arXiv</a>
-        or MathScinet.</p>
         <p><a href="{{ item.url }}">{{ item.name }}</a> {{ item.author }} {{  item.journal }}.</p>
       {% endfor %}
     {% endif %}
