@@ -2,7 +2,7 @@
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Academic activities</h3>
     <p>One may have seen (or will see) me in the following activities or during my following visits</p>
-      {% for item in site.data.visits %}
+      {% for item in site.data.activities %}
         <p>{{ item.time }}. {{ item.name }}. {{  item.location }}.  Hosted by {{ item.host }}. </p>
       {% endfor %}
   </div>
