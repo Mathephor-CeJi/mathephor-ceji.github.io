@@ -1,0 +1,5 @@
+featured:
+- {name: 'The bilinear fermionic form for KP and BKP hierarchies.', author: 'Shuai Guo, Ce Ji, Chenglang Yang.', journal: 'arXiv preprint. Submitted', url: 'https://arxiv.org/abs/2502.09302'}
+- {name: 'Schröder Paths, Their Generalizations and Knot Invariants', author: 'Ce Ji, Qian Tang, Chenglang Yang.', journal: 'arXiv preprint. Submitted', url: 'https://arxiv.org/abs/2407.20010'}
+- {name: 'A generalization of the Witten conjecture through spectral curve.', author: 'Shuai Guo, Ce Ji, Qingsheng Zhang.', journal: 'arXiv preprint', url: 'https://arxiv.org/abs/2309.12271'}
+- {name: 'Kac-Schwarz operators of type B, quantum spectral curves and spin Hurwitz numbers.', author: 'Ce Ji, Zhiyuan Wang, Chenglang Yang.', journal: 'Journal of Geometry and Physics, Volume 189 (2023), Paper No. 104831', url: 'https://www.sciencedirect.com/science/article/pii/S0393044023000839'}
