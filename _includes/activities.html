@@ -13,7 +13,7 @@
      
     
     <div class="row g-5 mb-3">
-      <div class="col-md-4">
+      <div class="col-md-8">
         <h4>Conferences/Seminars co-organized</h4>
       </div>
       <div class="col-md-16">
@@ -24,18 +24,18 @@
     </div>
     
     <div class="row g-5 mb-3">
-      <div class="col-md-4">
+      <div class="col-md-8">
         <h4>Research talks</h4>
       </div>
       <div class="col-md-16">
         {% for item in site.data.activities.participate %}
-        <p>{{ item.time }}. {{ item.name }}. {{  item.location }}.  Hosted by {{ item.host }}. </p>
+        <p>{{ item.time }}. {{ item.name }}. {{  item.location }}. </p>
       {% endfor %}
       </div>
     </div>
 
       <div class="row g-5 mb-3">
-      <div class="col-md-4">
+      <div class="col-md-8">
         <h4>Academic visits</h4>
       </div>
       <div class="col-md-16">
