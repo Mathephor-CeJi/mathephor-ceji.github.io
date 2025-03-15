@@ -11,16 +11,6 @@
      <p>One may have seen (or will see) me in the following activities or during my following visits</p>
     </div>
      
-    <div class="row g-5 mb-3">
-      <div class="col-md-4">
-        <h4>Academic visits</h4>
-      </div>
-      <div class="col-md-16">
-      {% for item in site.data.activities.visit %}
-        <p>{{ item.time }}. {{ item.name }}. {{  item.location }}.  Hosted by {{ item.host }}. </p>
-      {% endfor %}
-      </div>
-    </div>
     
     <div class="row g-5 mb-3">
       <div class="col-md-4">
@@ -35,10 +25,21 @@
     
     <div class="row g-5 mb-3">
       <div class="col-md-4">
-        <h4>Conferences/Seminars participated</h4>
+        <h4>Research talks</h4>
       </div>
       <div class="col-md-16">
         {% for item in site.data.activities.participate %}
+        <p>{{ item.time }}. {{ item.name }}. {{  item.location }}.  Hosted by {{ item.host }}. </p>
+      {% endfor %}
+      </div>
+    </div>
+
+      <div class="row g-5 mb-3">
+      <div class="col-md-4">
+        <h4>Academic visits</h4>
+      </div>
+      <div class="col-md-16">
+      {% for item in site.data.activities.visit %}
         <p>{{ item.time }}. {{ item.name }}. {{  item.location }}.  Hosted by {{ item.host }}. </p>
       {% endfor %}
       </div>
