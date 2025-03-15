@@ -13,7 +13,7 @@
       <div class="col-md-4">
         <h4>Academic visits</h4>
       </div>
-      <div class="col-md-10">
+      <div class="col-md-16">
       {% for item in site.data.activities.visit %}
         <p>{{ item.time }}. {{ item.name }}. {{  item.location }}.  Hosted by {{ item.host }}. </p>
       {% endfor %}
@@ -24,7 +24,7 @@
       <div class="col-md-4">
         <h4>Conferences/Seminars co-organized</h4>
       </div>
-      <div class="col-md-10">
+      <div class="col-md-16">
         {% for item in site.data.activities.organize %}
         <p>{{ item.time }}. {{ item.name }}. {{  item.location }}. </p>
       {% endfor %}
@@ -35,7 +35,7 @@
       <div class="col-md-4">
         <h4>Conferences/Seminars participated</h4>
       </div>
-      <div class="col-md-10">
+      <div class="col-md-16">
         {% for item in site.data.activities.participate %}
         <p>{{ item.time }}. {{ item.name }}. {{  item.location }}.  Hosted by {{ item.host }}. </p>
       {% endfor %}
