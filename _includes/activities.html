@@ -1,8 +1,6 @@
 
    
-      {% for item in site.data.activities %}
-        <p>{{ item.time }}. {{ item.name }}. {{  item.location }}.  Hosted by {{ item.host }}. </p>
-      {% endfor %}
+
 
 
 
@@ -12,38 +10,35 @@
      <p>One may have seen (or will see) me in the following activities or during my following visits</p>
     
     <div class="row g-5 mb-5">
-      <div class="col-md-2">
+      <div class="col-md-4">
         <h4>Academic visits</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.activities %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
-        {% endfor %}
+      {% for item in site.data.activities.Academic visits %}
+        <p>{{ item.time }}. {{ item.name }}. {{  item.location }}.  Hosted by {{ item.host }}. </p>
+      {% endfor %}
       </div>
     </div>
     
     <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4>Academic Employment</h4>
+      <div class="col-md-4">
+        <h4>Conferences/Seminars co-organized</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.cv.academic-experience %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
-        {% endfor %}
+        {% for item in site.data.activities.Conferences/Seminars co-organized %}
+        <p>{{ item.time }}. {{ item.name }}. {{  item.location }}. </p>
+      {% endfor %}
       </div>
     </div>
     
     <div class="row g-5 mb-5">
-      <div class="col-md-2">
-        <h4>Academic visits</h4>
+      <div class="col-md-4">
+        <h4>Conferences/Seminars participated</h4>
       </div>
       <div class="col-md-10">
-        {% for section in site.data.cv.education %}
-          <p class="fw-bold">{{ section.title }}</p>
-          <p>{{ section.description }}</p>
-        {% endfor %}
+        {% for item in site.data.activities.Conferences/Seminars participated %}
+        <p>{{ item.time }}. {{ item.name }}. {{  item.location }}.  Hosted by {{ item.host }}. </p>
+      {% endfor %}
       </div>
     </div>
     
