@@ -1,9 +1,9 @@
 <div class="row g-5 mb-5">
   <div>
     <h3 class="fw-bold border-bottom pb-3 mb-5">Academic activities</h3>
-    <p>One may have seen (or will see) me in the following activities</p>
+    <p>One may have seen (or will see) me in the following activities or during my following visits</p>
       {% for item in site.data.visits %}
-        <p><a href="{{ item.url }}">{{ item.name }}</a> {{  item.author }} {{  item.journal }}.</p>
+        <p>{{ item.time }}. {{ item.name }}. {{  item.location }}.  Hosted by {{ item.host }}. </p>
       {% endfor %}
   </div>
 </div>
