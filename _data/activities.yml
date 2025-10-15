@@ -12,7 +12,7 @@ organize:
 
 
 participate:
-- {time: 'Oct 15 2025', name: 'Mathematical Physics Seminar', location:'SMS/IMAI, Wuhan University', host:'Prof. Huijun Fan and Chenglang Yang'}
+- {time: 'Oct 15 2025', name: 'Mathematical Physics Seminar', location: 'SMS/IMAI, Wuhan University', host: 'Prof. Huijun Fan and Prof. Chenglang Yang'}
 - {time: 'May 18, 2025', name: 'Haihe Seminar for Math, Statistics and Interdisciplinary Sciences', location: 'Nankai University', host: 'CPSF'}
 - {time: 'Apr 8, 2025', name: 'Symplectic Geometry and Mathematical Physics Seminar', location: 'BICMR, Peking University', host: 'Prof. Xiaomeng Xu'}
 - {time: 'Dec 15, 2024', name: 'Postdoc Seminar', location: 'YMSC, Tsinghua University', host: 'Prof. Shing-Tung Yau'}
