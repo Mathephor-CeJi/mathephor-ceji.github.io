@@ -7,4 +7,6 @@ I am currently a Shuimu-Scholar postdoctoral fellow in Department of Mathematics
 
 I work on mathematical physics, with an emphasis on algebraic geometry and integrable systems.
 
+I am currently on the job market (25-26 academic year).
+
 My name in Chinese character is 季 策 (Ji, Ce). For non-native speaker in Chinese: please feel free to pronounce my name as you think how it should be pronounced :)
