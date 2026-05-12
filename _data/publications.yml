@@ -1,5 +1,5 @@
 featured:
-- {name: 'Generalized Kontsevich model, r-spin theory, and topological recursion.', author: 'Shuai Guo, Ce Ji, Chenglang Yang, Qingsheng Zhang.', journal: 'In preparation.', url: ''}
+- {name: 'Generalized Kontsevich model, topological recursion, and r-spin theory.', author: 'Shuai Guo, Ce Ji, Chenglang Yang, Qingsheng Zhang.', journal: 'arXiv preprint.', url: 'https://arxiv.org/abs/2605.02643'}
 - {name: 'The bilinear fermionic form for KP and BKP hierarchies.', author: 'Shuai Guo, Ce Ji, Chenglang Yang.', journal: 'arXiv preprint. Submitted', url: 'https://arxiv.org/abs/2502.09302'}
 - {name: 'Schröder Paths, Their Generalizations and Knot Invariants', author: 'Ce Ji, Qian Tang, Chenglang Yang.', journal: 'arXiv preprint. Submitted', url: 'https://arxiv.org/abs/2407.20010'}
 - {name: 'A generalization of the Witten conjecture through spectral curve.', author: 'Shuai Guo, Ce Ji, Qingsheng Zhang.', journal: 'arXiv preprint. Submitted', url: 'https://arxiv.org/abs/2309.12271'}
@@ -9,7 +9,7 @@ featured:
 
 
 index:
-- {name: 'Generalized Kontsevich model, r-spin theory, and topological recursion.', author: 'Shuai Guo, Ce Ji, Chenglang Yang, Qingsheng Zhang.', journal: 'In preparation.', url: ''}
+- {name: 'Generalized Kontsevich model, topological recursion, and r-spin theory.', author: 'Shuai Guo, Ce Ji, Chenglang Yang, Qingsheng Zhang.', journal: 'arXiv preprint', url: 'https://arxiv.org/abs/2605.02643'}
 - {name: 'The bilinear fermionic form for KP and BKP hierarchies.', author: 'Shuai Guo, Ce Ji, Chenglang Yang.', journal: 'arXiv preprint. Submitted', url: 'https://arxiv.org/abs/2502.09302'}
 - {name: 'Schröder Paths, Their Generalizations and Knot Invariants', author: 'Ce Ji, Qian Tang, Chenglang Yang.', journal: 'arXiv preprint. Submitted', url: 'https://arxiv.org/abs/2407.20010'}
 - {name: 'A generalization of the Witten conjecture through spectral curve.', author: 'Shuai Guo, Ce Ji, Qingsheng Zhang.', journal: 'arXiv preprint. Submitted', url: 'https://arxiv.org/abs/2309.12271'}
