@@ -1,6 +1,9 @@
 ---
 layout: home
 title: "Home"
+lang: en-US
+alternate_url: /zh/
+featured_publications: true
 ---
 
 I am currently a Shuimu-Scholar postdoctoral fellow in Department of Mathematics, Tsinghua University, in the group of <a href="https://math.tsinghua.edu.cn/mathen/info/1125/1369.htm">Youjin Zhang</a>.  I received my Ph.D. from School of Mathematical Sciences, Peking University in June 2024, advised by <a href="https://sites.google.com/site/guoshuaimath/home?authuser=0">Shuai Guo</a>. Before that, I got my B.Sc. in mathematics at Peking University also.

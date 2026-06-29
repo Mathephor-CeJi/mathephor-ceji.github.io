@@ -6,18 +6,23 @@
 
 <div class="row g-5 mb-5">
   <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">Academic activities</h3>
+    {% if page.lang == 'zh-CN' %}
+      {% assign activities = site.data.activities_zh %}
+    {% else %}
+      {% assign activities = site.data.activities %}
+    {% endif %}
+    <h3 class="fw-bold border-bottom pb-3 mb-5">{% if page.lang == 'zh-CN' %}学术活动{% else %}Academic activities{% endif %}</h3>
     <div class="row g-5 mb-3">
-     <p>You may have seen (or will see) me in the following activities:</p>
+     <p>{% if page.lang == 'zh-CN' %}您可能曾在（或将在）以下活动中见到我：{% else %}You may have seen (or will see) me in the following activities:{% endif %}</p>
     </div>
      
     
     <div class="row g-2 mb-4">
       <div class="col-md-8">
-        <h4>Conferences/Seminars co-organized</h4>
+        <h4>{% if page.lang == 'zh-CN' %}共同组织的会议/研讨会{% else %}Conferences/Seminars co-organized{% endif %}</h4>
       </div>
       <div class="col-md-16">
-        {% for item in site.data.activities.organize %}
+        {% for item in activities.organize %}
         <p>{{ item.time }}. {{ item.name }}. {{  item.location }}. </p>
       {% endfor %}
       </div>
@@ -25,10 +30,10 @@
     
     <div class="row g-2 mb-4">
       <div class="col-md-8">
-        <h4>Research talks</h4>
+        <h4>{% if page.lang == 'zh-CN' %}学术报告{% else %}Research talks{% endif %}</h4>
       </div>
       <div class="col-md-16">
-        {% for item in site.data.activities.participate %}
+        {% for item in activities.participate %}
         <p>{{ item.time }}. {{ item.name }}. {{  item.location }}. </p>
       {% endfor %}
       </div>
@@ -36,11 +41,11 @@
 
       <div class="row g-2 mb-4">
       <div class="col-md-8">
-        <h4>Academic visits</h4>
+        <h4>{% if page.lang == 'zh-CN' %}学术访问{% else %}Academic visits{% endif %}</h4>
       </div>
       <div class="col-md-16">
-      {% for item in site.data.activities.visit %}
-        <p>{{ item.time }}. {{ item.location }}.  Hosted by {{ item.host }}. </p>
+      {% for item in activities.visit %}
+        <p>{{ item.time }}. {{ item.location }}. {% if page.lang == 'zh-CN' %}接待人：{% else %}Hosted by {% endif %}{{ item.host }}. </p>
       {% endfor %}
       </div>
     </div>

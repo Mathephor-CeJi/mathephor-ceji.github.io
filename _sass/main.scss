@@ -12,3 +12,13 @@ body {
 body a {
   color: $linkColor
 }
+
+.language-switch {
+  border-left: 1px solid #dee2e6;
+  padding-left: 0.75rem;
+  font-weight: 600;
+}
+
+html[lang="zh-CN"] body {
+  line-height: 1.75;
+}
