@@ -1,7 +1,9 @@
 ---
-layout: publications
-title: "论文"
-lang: zh-CN
+layout: default
+title: 论文
+lang: zh
 permalink: /zh/publications/
-alternate_url: /publications
+alternate_url: /publications/
 ---
+
+{% include publications.html %}

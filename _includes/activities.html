@@ -1,54 +1,25 @@
+<section class="content-section" aria-labelledby="activities-heading">
+  <h1 id="activities-heading" class="section-heading">{{ t.activities }}</h1>
+  <p>{{ t.activities_intro }}</p>
 
-   
+  <section class="activity-section" aria-labelledby="organized-heading">
+    <h2 id="organized-heading">{{ t.organized }}</h2>
+    {% for item in site.data.activities.organized %}
+      <p>{{ item.time[page.lang] }}. {{ item.name[page.lang] }}. {{ item.location[page.lang] }}.</p>
+    {% endfor %}
+  </section>
 
+  <section class="activity-section" aria-labelledby="talks-heading">
+    <h2 id="talks-heading">{{ t.talks }}</h2>
+    {% for item in site.data.activities.talks %}
+      <p>{{ item.time[page.lang] }}. {{ item.name[page.lang] }}. {{ item.location[page.lang] }}.</p>
+    {% endfor %}
+  </section>
 
-
-
-<div class="row g-5 mb-5">
-  <div>
-    {% if page.lang == 'zh-CN' %}
-      {% assign activities = site.data.activities_zh %}
-    {% else %}
-      {% assign activities = site.data.activities %}
-    {% endif %}
-    <h3 class="fw-bold border-bottom pb-3 mb-5">{% if page.lang == 'zh-CN' %}学术活动{% else %}Academic activities{% endif %}</h3>
-    <div class="row g-5 mb-3">
-     <p>{% if page.lang == 'zh-CN' %}您可能曾在（或将在）以下活动中见到我：{% else %}You may have seen (or will see) me in the following activities:{% endif %}</p>
-    </div>
-     
-    
-    <div class="row g-2 mb-4">
-      <div class="col-md-8">
-        <h4>{% if page.lang == 'zh-CN' %}共同组织的会议/研讨会{% else %}Conferences/Seminars co-organized{% endif %}</h4>
-      </div>
-      <div class="col-md-16">
-        {% for item in activities.organize %}
-        <p>{{ item.time }}. {{ item.name }}. {{  item.location }}. </p>
-      {% endfor %}
-      </div>
-    </div>
-    
-    <div class="row g-2 mb-4">
-      <div class="col-md-8">
-        <h4>{% if page.lang == 'zh-CN' %}学术报告{% else %}Research talks{% endif %}</h4>
-      </div>
-      <div class="col-md-16">
-        {% for item in activities.participate %}
-        <p>{{ item.time }}. {{ item.name }}. {{  item.location }}. </p>
-      {% endfor %}
-      </div>
-    </div>
-
-      <div class="row g-2 mb-4">
-      <div class="col-md-8">
-        <h4>{% if page.lang == 'zh-CN' %}学术访问{% else %}Academic visits{% endif %}</h4>
-      </div>
-      <div class="col-md-16">
-      {% for item in activities.visit %}
-        <p>{{ item.time }}. {{ item.location }}. {% if page.lang == 'zh-CN' %}接待人：{% else %}Hosted by {% endif %}{{ item.host }}. </p>
-      {% endfor %}
-      </div>
-    </div>
-    
-  </div>
-</div>
+  <section class="activity-section" aria-labelledby="visits-heading">
+    <h2 id="visits-heading">{{ t.visits }}</h2>
+    {% for item in site.data.activities.visits %}
+      <p>{{ item.time[page.lang] }}. {{ item.location[page.lang] }}. {{ t.hosted_by }} {{ item.host[page.lang] }}.</p>
+    {% endfor %}
+  </section>
+</section>

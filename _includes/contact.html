@@ -1,21 +1,9 @@
-<div class="row g-5 mb-5">
-  <div>
-    <h3 class="fw-bold border-bottom pb-3 mb-5">{% if page.lang == 'zh-CN' %}联系方式{% else %}Contact{% endif %}</h3>
-    {% if page.lang == 'zh-CN' %}
-      {% assign contacts = site.data.settings.contacts_zh %}
-    {% else %}
-      {% assign contacts = site.data.settings.contacts %}
-    {% endif %}
-    {% for contact in contacts %}
-    <div class="row g-5 mb-5">
-      <div class="col-md-10">
-        
-        <p>{{ contact.title }} | {{ contact.department }}</p>
-        <p>{{ contact.institution }} | {{ contact.institution_address }}</p>
-        <p>{% if page.lang == 'zh-CN' %}电子邮箱{% else %}Email{% endif %}: {{ contact.email }}</p>
-        <p>{% if page.lang == 'zh-CN' %}办公室{% else %}Office{% endif %}: {{ contact.office }}</p>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-</div>
+<section class="content-section" aria-labelledby="contact-heading">
+  <h1 id="contact-heading" class="section-heading">{{ t.contact }}</h1>
+  <address class="contact-card">
+    <p>{{ site.data.contact.title[page.lang] }} | {{ site.data.contact.department[page.lang] }}</p>
+    <p>{{ site.data.contact.institution[page.lang] }} | {{ site.data.contact.address[page.lang] }}</p>
+    <p>{{ t.email }}: {{ site.data.contact.email }}</p>
+    <p>{{ t.office }}: {{ site.data.contact.office[page.lang] }}</p>
+  </address>
+</section>

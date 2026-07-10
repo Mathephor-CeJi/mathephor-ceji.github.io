@@ -1,0 +1,266 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background: #ffffff;
+  color: #111111;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 16px;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #111111;
+}
+
+body,
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: #212529;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+a:hover {
+  text-decoration-thickness: 2px;
+}
+
+a:focus-visible {
+  border-radius: 0.15rem;
+  outline: 3px solid rgba(13, 110, 253, 0.35);
+  outline-offset: 3px;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 10;
+  padding: 0.55rem 0.8rem;
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+  transform: translateY(-200%);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
+.site-shell {
+  width: min(calc(100% - 2rem), 960px);
+  margin: 0 auto;
+  padding: 3rem 0 1rem;
+}
+
+.site-header {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.site-brand {
+  flex: 0 0 auto;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.site-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0 1rem;
+  margin-left: auto;
+}
+
+.nav-link,
+.language-switch {
+  display: inline-block;
+  padding: 0.5rem 0;
+  text-decoration: none;
+}
+
+.nav-link.is-current {
+  font-weight: 650;
+  text-decoration: underline;
+  text-underline-offset: 0.3em;
+}
+
+.language-switch {
+  padding-left: 1rem;
+  border-left: 1px solid #dee2e6;
+  font-weight: 700;
+}
+
+.home-intro {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  gap: 3rem;
+  align-items: start;
+  margin-bottom: 3rem;
+}
+
+.home-heading {
+  margin: 0 0 0.75rem;
+  font-size: 1.75rem;
+  line-height: 1.2;
+}
+
+.portrait {
+  margin: 0;
+}
+
+.portrait img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.content-section {
+  margin-bottom: 3rem;
+}
+
+.section-heading {
+  margin: 0 0 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #dee2e6;
+  font-size: 1.75rem;
+  line-height: 1.2;
+}
+
+.publication-list {
+  margin-top: 1.5rem;
+}
+
+.cv-entry h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.cv-entry p {
+  margin-bottom: 0;
+}
+
+.cv-section {
+  display: grid;
+  grid-template-columns: minmax(8rem, 2fr) minmax(0, 10fr);
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.cv-section > h2,
+.activity-section > h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.35;
+}
+
+.cv-entry + .cv-entry {
+  margin-top: 1.5rem;
+}
+
+.activity-section {
+  margin-top: 2.5rem;
+}
+
+.activity-section > h2 {
+  margin-bottom: 1.25rem;
+}
+
+.contact-card {
+  font-style: normal;
+}
+
+.post-header .section-heading {
+  margin-bottom: 0.75rem;
+}
+
+.post-date {
+  margin-bottom: 2rem;
+  color: #6c757d;
+}
+
+.site-footer {
+  padding: 3rem 0 0;
+  margin-top: 3rem;
+  border-top: 1px solid #dee2e6;
+  color: #6c757d;
+  font-size: 0.875rem;
+}
+
+html[lang="zh-CN"] body {
+  line-height: 1.75;
+}
+
+@media (max-width: 767px) {
+  .site-shell {
+    padding-top: 1.5rem;
+  }
+
+  .site-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .site-nav {
+    justify-content: flex-start;
+    margin-left: 0;
+    gap: 0 0.9rem;
+  }
+
+  .language-switch {
+    padding-left: 0.9rem;
+  }
+
+  .home-intro {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .section-heading {
+    margin-bottom: 2rem;
+  }
+
+  .cv-section {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

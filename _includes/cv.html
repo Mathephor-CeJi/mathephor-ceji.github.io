@@ -1,0 +1,27 @@
+<section class="content-section" aria-labelledby="cv-heading">
+  <h1 id="cv-heading" class="section-heading">{{ t.cv }}</h1>
+
+  <section class="cv-section" aria-labelledby="education-heading">
+    <h2 id="education-heading">{{ t.education }}</h2>
+    <div class="cv-entries">
+      {% for entry in site.data.cv.education %}
+        <article class="cv-entry">
+          <h3>{{ entry.title[page.lang] }}</h3>
+          <p>{{ entry.description[page.lang] }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="cv-section" aria-labelledby="employment-heading">
+    <h2 id="employment-heading">{{ t.employment }}</h2>
+    <div class="cv-entries">
+      {% for entry in site.data.cv.employment %}
+        <article class="cv-entry">
+          <h3>{{ entry.title[page.lang] }}</h3>
+          <p>{{ entry.description[page.lang] }}</p>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+</section>

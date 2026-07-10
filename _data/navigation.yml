@@ -1,0 +1,31 @@
+- key: publications
+  en:
+    label: Publications
+    url: /publications/
+  zh:
+    label: 论文
+    url: /zh/publications/
+
+- key: cv
+  en:
+    label: CV
+    url: /cv/
+  zh:
+    label: 简历
+    url: /zh/cv/
+
+- key: activities
+  en:
+    label: Activities
+    url: /activities/
+  zh:
+    label: 学术活动
+    url: /zh/activities/
+
+- key: contact
+  en:
+    label: Contact
+    url: /contact/
+  zh:
+    label: 联系方式
+    url: /zh/contact/

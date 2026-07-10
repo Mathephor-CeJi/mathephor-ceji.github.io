@@ -1,5 +1,18 @@
-url: "https://mathephor-ceji.github.io" # the base hostname & protocol for your site
-baseurl: "" # the subpath of your site, e.g. /blog
-title: "Ce Ji" # the name of your site, e.g. ACME Corp.
+url: "https://mathephor-ceji.github.io"
+baseurl: ""
+
+title: "Ce Ji"
 title_zh: "季策"
-description: ""
+description: "Academic homepage of Ce Ji, a mathematician working in mathematical physics, algebraic geometry, and integrable systems."
+
+lang: en
+timezone: Asia/Shanghai
+permalink: pretty
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.txt
+  - MAINTAIN.md
+  - README.md
+  - vendor

@@ -2,24 +2,24 @@
 layout: default
 ---
 
-<div class="row g-5 mb-5">
-  <div class="col-md-7">
-    <h3 class="fw-bold">{% if page.lang == 'zh-CN' %}关于我{% else %}About{% endif %}</h3>
+<section class="home-intro" aria-labelledby="about-heading">
+  <div class="home-copy">
+    <h1 id="about-heading" class="home-heading">{{ t.about }}</h1>
     {{ content }}
   </div>
-  <div class="col-md-5">
-    <img src="{{ '/assets/img/bern.jpg' | relative_url }}" alt="{% if page.lang == 'zh-CN' %}季策在伯尔尼{% else %}Ce Ji in Bern{% endif %}" width="100%">
-  </div>
-</div>
+  <figure class="portrait">
+    <img src="{{ '/assets/img/bern.jpg' | relative_url }}" alt="{{ t.portrait_alt }}">
+  </figure>
+</section>
 
-{% include publications.html %}
+{% include publications.html featured=true %}
 
-<div class="row g-5 mb-5">
-  <div class="col-md-12">
-    <h3 class="fw-bold border-bottom pb-3 mb-5">{% if page.lang == 'zh-CN' %}动态{% else %}Updates{% endif %}</h3>
-    {% assign localized_posts = site.posts | where: 'lang', page.lang %}
+<section class="content-section" aria-labelledby="updates-heading">
+  <h2 id="updates-heading" class="section-heading">{{ t.updates }}</h2>
+  {% assign localized_posts = site.posts | where: "lang", page.lang %}
+  <div class="update-list">
     {% for post in localized_posts %}
-      <p><a href="{{ post.url | relative_url }}">{{ post.title }}</a> - {% if page.lang == 'zh-CN' %}{{ post.date | date: "%Y年%-m月%-d日" }}{% else %}{{ post.date | date: "%B %-d, %Y" }}{% endif %}</p>
+      <p><a href="{{ post.url | relative_url }}">{{ post.title }}</a> — {{ post.date | date: t.date_format }}</p>
     {% endfor %}
   </div>
-</div>
+</section>

@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: 'en-US' }}">
+<!doctype html>
+{% assign t = site.data.ui[page.lang] %}
+<html lang="{{ t.locale }}">
   {% include head.html %}
   <body>
-    <div class="col-lg-8 mx-auto p-3 py-md-5">
+    <a class="skip-link" href="#main-content">{{ t.skip_to_content }}</a>
+    <div class="site-shell">
       {% include header.html %}
-      {{ content }}
+      <main id="main-content">
+        {{ content }}
+      </main>
       {% include footer.html %}
     </div>
   </body>

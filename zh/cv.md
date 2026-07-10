@@ -1,7 +1,9 @@
 ---
-layout: cv
-title: "简历"
-lang: zh-CN
+layout: default
+title: 简历
+lang: zh
 permalink: /zh/cv/
-alternate_url: /cv
+alternate_url: /cv/
 ---
+
+{% include cv.html %}

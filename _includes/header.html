@@ -1,29 +1,15 @@
-<header class="d-flex flex-column flex-md-row align-items-center pb-3 mb-5 border-bottom">
-  <div>
-    {% if page.lang == 'zh-CN' %}
-      {% assign home_url = '/zh/' %}
-      {% assign site_name = site.title_zh %}
-      {% assign menu = site.data.settings.menu_zh %}
-    {% else %}
-      {% assign home_url = '/' %}
-      {% assign site_name = site.title %}
-      {% assign menu = site.data.settings.menu %}
-    {% endif %}
-    <a href="{{ home_url | relative_url }}" class="d-flex align-items-center text-decoration-none">
-      <span class="fs-4 fw-bold">{{ site_name }}</span>
-    </a>
-    <a href="{{ home_url | relative_url }}" class="d-flex align-items-center text-decoration-none">
-      <span>{{ site.description }}</span>
-    </a>
-  </div>
-  <nav class="d-flex flex-wrap align-items-center justify-content-center mt-2 mt-md-0 ms-md-auto" aria-label="{% if page.lang == 'zh-CN' %}主导航{% else %}Main navigation{% endif %}">
-    {% for item in menu %}
-      <a class="me-3 py-2 text-decoration-none" href="{{ item.url | relative_url }}">{{ item.name }}</a>
+{% if page.lang == "zh" %}
+  {% assign home_url = "/zh/" %}
+{% else %}
+  {% assign home_url = "/" %}
+{% endif %}
+<header class="site-header">
+  <a class="site-brand" href="{{ home_url | relative_url }}">{{ t.site_title }}</a>
+  <nav class="site-nav" aria-label="{{ t.navigation }}">
+    {% for item in site.data.navigation %}
+      {% assign localized_item = item[page.lang] %}
+      <a class="nav-link{% if page.url == localized_item.url %} is-current{% endif %}" href="{{ localized_item.url | relative_url }}"{% if page.url == localized_item.url %} aria-current="page"{% endif %}>{{ localized_item.label }}</a>
     {% endfor %}
-    {% if page.lang == 'zh-CN' %}
-      <a class="language-switch py-2 text-decoration-none" href="{{ page.alternate_url | default: '/' | relative_url }}" lang="en">EN</a>
-    {% else %}
-      <a class="language-switch py-2 text-decoration-none" href="{{ page.alternate_url | default: '/zh/' | relative_url }}" lang="zh-CN">中文</a>
-    {% endif %}
+    <a class="language-switch" href="{{ page.alternate_url | relative_url }}" lang="{% if page.lang == 'zh' %}en{% else %}zh-CN{% endif %}">{{ t.language_switch }}</a>
   </nav>
 </header>

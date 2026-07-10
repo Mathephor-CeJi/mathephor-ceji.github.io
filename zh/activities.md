@@ -1,7 +1,9 @@
 ---
-layout: activities
-title: "学术活动"
-lang: zh-CN
+layout: default
+title: 学术活动
+lang: zh
 permalink: /zh/activities/
-alternate_url: /activities
+alternate_url: /activities/
 ---
+
+{% include activities.html %}

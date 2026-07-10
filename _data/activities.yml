@@ -1,25 +1,70 @@
+organized:
+  - time:
+      en: March 15–16, 2025
+      zh: 2025年3月15–16日
+    name:
+      en: Analytic and geometric aspects of nonlinear integrable systems
+      zh: 非线性可积系统的解析与几何问题
+    location:
+      en: Tsinghua University
+      zh: 清华大学
 
-visit:
+  - time:
+      en: September 4–8, 2023
+      zh: 2023年9月4–8日
+    name:
+      en: Workshop on enumerative geometry and KP/BKP hierarchies
+      zh: 枚举几何与 KP/BKP 层级研讨会
+    location:
+      en: Peking University
+      zh: 北京大学
 
-- {time: 'Sep 2023 - Apr 2024', name: 'Academic visit', location: 'ETH Zürich', host: 'Prof. Rahul Pandharipande'}
-- {time: 'Jun 2021 - Aug 2021', name: 'Academic visit', location: 'Zhejiang University', host: 'Prof. Yongbin Ruan'}
-- {time: 'Sep 2019 - Oct 2019', name: 'Academic visit', location: 'Zhejiang University', host: 'Prof. Yongbin Ruan'}
+talks:
+  - time: { en: "October 15, 2025", zh: "2025年10月15日" }
+    name: { en: "Mathematical Physics Seminar", zh: "数学物理研讨会" }
+    location: { en: "SMS/IMAI, Wuhan University", zh: "武汉大学 SMS/IMAI" }
 
-organize:
+  - time: { en: "May 18, 2025", zh: "2025年5月18日" }
+    name: { en: "Haihe Seminar for Math, Statistics and Interdisciplinary Sciences", zh: "海河数学、统计与交叉科学研讨会" }
+    location: { en: "Nankai University", zh: "南开大学" }
 
-- {time: 'Mar 15, 2025 - Mar 16, 2025', name: 'Analytic and geometric aspects of nonlinear integrable systems', location: 'Tsinghua University'}
-- {time: 'Sep 4, 2023 - Sep 8, 2023', name: 'Workshop on enumerative geometry and KP/BKP hierarchies', location: 'Peking University'}
+  - time: { en: "April 8, 2025", zh: "2025年4月8日" }
+    name: { en: "Symplectic Geometry and Mathematical Physics Seminar", zh: "辛几何与数学物理研讨会" }
+    location: { en: "BICMR, Peking University", zh: "北京大学北京国际数学研究中心" }
 
+  - time: { en: "December 15, 2024", zh: "2024年12月15日" }
+    name: { en: "Postdoc Seminar", zh: "博士后研讨会" }
+    location: { en: "YMSC, Tsinghua University", zh: "清华大学丘成桐数学科学中心" }
 
-participate:
-- {time: 'Oct 15 2025', name: 'Mathematical Physics Seminar', location: 'SMS/IMAI, Wuhan University', host: 'Prof. Huijun Fan and Prof. Chenglang Yang'}
-- {time: 'May 18, 2025', name: 'Haihe Seminar for Math, Statistics and Interdisciplinary Sciences', location: 'Nankai University', host: 'CPSF'}
-- {time: 'Apr 8, 2025', name: 'Symplectic Geometry and Mathematical Physics Seminar', location: 'BICMR, Peking University', host: 'Prof. Xiaomeng Xu'}
-- {time: 'Dec 15, 2024', name: 'Postdoc Seminar', location: 'YMSC, Tsinghua University', host: 'Prof. Shing-Tung Yau'}
-- {time: 'Nov 6, 2024', name: 'Symplectic Geometry and Mathematical Physics Seminar', location: 'Morningside Center, Chinese Academy of Sciences', host: 'Prof. Yalong Cao'}
-- {time: 'Jul 1, 2024', name: 'Geometry and Moduli Seminar', location: 'Zhejiang University', host: 'Prof. Yongbin Ruan'}
-- {time: 'Jan 14, 2024', name: 'QM Research Seminar', location: 'Center for Kvantematematik, Syddansk Universitet', host: 'Prof. Vivek Shende'}
-- {time: 'Nov 28, 2023', name: 'Online Geometry and Physics Seminar', location: 'Zhejiang University', host: 'Prof. Yongbin Ruan'}
-- {time: 'Oct 25, 2023', name: 'Algebraic Geometry and Moduli Seminar', location: 'ETH Zürich', host: 'Prof. Rahul Pandharipande'}
+  - time: { en: "November 6, 2024", zh: "2024年11月6日" }
+    name: { en: "Symplectic Geometry and Mathematical Physics Seminar", zh: "辛几何与数学物理研讨会" }
+    location: { en: "Morningside Center, Chinese Academy of Sciences", zh: "中国科学院晨兴数学中心" }
 
+  - time: { en: "July 1, 2024", zh: "2024年7月1日" }
+    name: { en: "Geometry and Moduli Seminar", zh: "几何与模空间研讨会" }
+    location: { en: "Zhejiang University", zh: "浙江大学" }
 
+  - time: { en: "January 14, 2024", zh: "2024年1月14日" }
+    name: { en: "QM Research Seminar", zh: "QM 研究研讨会" }
+    location: { en: "Center for Kvantematematik, Syddansk Universitet", zh: "南丹麦大学量子数学中心" }
+
+  - time: { en: "November 28, 2023", zh: "2023年11月28日" }
+    name: { en: "Online Geometry and Physics Seminar", zh: "线上几何与物理研讨会" }
+    location: { en: "Zhejiang University", zh: "浙江大学" }
+
+  - time: { en: "October 25, 2023", zh: "2023年10月25日" }
+    name: { en: "Algebraic Geometry and Moduli Seminar", zh: "代数几何与模空间研讨会" }
+    location: { en: "ETH Zürich", zh: "苏黎世联邦理工学院" }
+
+visits:
+  - time: { en: "September 2023 – April 2024", zh: "2023年9月–2024年4月" }
+    location: { en: "ETH Zürich", zh: "苏黎世联邦理工学院" }
+    host: { en: "Prof. Rahul Pandharipande", zh: "Rahul Pandharipande 教授" }
+
+  - time: { en: "June–August 2021", zh: "2021年6–8月" }
+    location: { en: "Zhejiang University", zh: "浙江大学" }
+    host: { en: "Prof. Yongbin Ruan", zh: "阮勇斌教授" }
+
+  - time: { en: "September–October 2019", zh: "2019年9–10月" }
+    location: { en: "Zhejiang University", zh: "浙江大学" }
+    host: { en: "Prof. Yongbin Ruan", zh: "阮勇斌教授" }
