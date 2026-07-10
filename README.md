@@ -6,7 +6,7 @@ This repository contains the bilingual English/Chinese academic homepage of Ce J
 
 - English pages live at the repository root.
 - Chinese counterparts live in `zh/`.
-- `_data/` contains structured academic content and interface translations.
+- `_data/` contains structured academic content and navigation.
 - `_includes/` renders each structured content section.
 - `_layouts/` contains the three shared page shells: default, home, and post.
 - `assets/css/site.css` contains the complete visual design.

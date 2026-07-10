@@ -1,13 +1,8 @@
 <!doctype html>
-{% if page.lang == "zh" %}
-  {% assign t = site.data.ui.zh %}
-{% else %}
-  {% assign t = site.data.ui.en %}
-{% endif %}
-<html lang="{{ t.locale }}">
+<html lang="{% if page.lang == 'zh' %}zh-CN{% else %}en-US{% endif %}">
   {% include head.html %}
   <body>
-    <a class="skip-link" href="#main-content">{{ t.skip_to_content }}</a>
+    <a class="skip-link" href="#main-content">{% if page.lang == 'zh' %}跳转到正文{% else %}Skip to content{% endif %}</a>
     <div class="site-shell">
       {% include header.html %}
       <main id="main-content">

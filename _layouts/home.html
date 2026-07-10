@@ -4,22 +4,22 @@ layout: default
 
 <section class="home-intro" aria-labelledby="about-heading">
   <div class="home-copy">
-    <h1 id="about-heading" class="home-heading">{{ t.about }}</h1>
+    <h1 id="about-heading" class="home-heading">{% if page.lang == 'zh' %}关于我{% else %}About{% endif %}</h1>
     {{ content }}
   </div>
   <figure class="portrait">
-    <img src="{{ '/assets/img/bern.jpg' | relative_url }}" alt="{{ t.portrait_alt }}">
+    <img src="{{ '/assets/img/bern.jpg' | relative_url }}" alt="{% if page.lang == 'zh' %}季策在伯尔尼{% else %}Ce Ji in Bern{% endif %}">
   </figure>
 </section>
 
 {% include publications.html featured=true %}
 
 <section class="content-section" aria-labelledby="updates-heading">
-  <h2 id="updates-heading" class="section-heading">{{ t.updates }}</h2>
+  <h2 id="updates-heading" class="section-heading">{% if page.lang == 'zh' %}动态{% else %}Updates{% endif %}</h2>
   {% assign localized_posts = site.posts | where: "lang", page.lang %}
   <div class="update-list">
     {% for post in localized_posts %}
-      <p><a href="{{ post.url | relative_url }}">{{ post.title }}</a> — {{ post.date | date: t.date_format }}</p>
+      <p><a href="{{ post.url | relative_url }}">{{ post.title }}</a> — {% if page.lang == 'zh' %}{{ post.date | date: "%Y年%-m月%-d日" }}{% else %}{{ post.date | date: "%B %-d, %Y" }}{% endif %}</p>
     {% endfor %}
   </div>
 </section>

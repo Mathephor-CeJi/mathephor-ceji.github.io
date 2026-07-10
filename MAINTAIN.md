@@ -13,7 +13,7 @@ The site separates content by subject. Most updates require editing one Markdown
 | Talks, visits, and organized events | `_data/activities.yml` |
 | Contact details | `_data/contact.yml` |
 | Navigation links | `_data/navigation.yml` |
-| Translated headings and interface text | `_data/ui.yml` |
+| Interface headings and explanatory sentences | The relevant file in `_includes/` or `_layouts/` |
 | Colors, spacing, and responsive design | `assets/css/site.css` |
 
 ## Bilingual data

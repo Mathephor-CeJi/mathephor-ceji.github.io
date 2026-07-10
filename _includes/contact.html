@@ -1,16 +1,16 @@
 <section class="content-section" aria-labelledby="contact-heading">
-  <h1 id="contact-heading" class="section-heading">{{ t.contact }}</h1>
+  <h1 id="contact-heading" class="section-heading">{% if page.lang == 'zh' %}联系方式{% else %}Contact{% endif %}</h1>
   <address class="contact-card">
     {% if page.lang == "zh" %}
       <p>{{ site.data.contact.title.zh }} | {{ site.data.contact.department.zh }}</p>
       <p>{{ site.data.contact.institution.zh }} | {{ site.data.contact.address.zh }}</p>
-      <p>{{ t.email }}: {{ site.data.contact.email }}</p>
-      <p>{{ t.office }}: {{ site.data.contact.office.zh }}</p>
+      <p>电子邮箱：{{ site.data.contact.email }}</p>
+      <p>办公室：{{ site.data.contact.office.zh }}</p>
     {% else %}
       <p>{{ site.data.contact.title.en }} | {{ site.data.contact.department.en }}</p>
       <p>{{ site.data.contact.institution.en }} | {{ site.data.contact.address.en }}</p>
-      <p>{{ t.email }}: {{ site.data.contact.email }}</p>
-      <p>{{ t.office }}: {{ site.data.contact.office.en }}</p>
+      <p>Email: {{ site.data.contact.email }}</p>
+      <p>Office: {{ site.data.contact.office.en }}</p>
     {% endif %}
   </address>
 </section>

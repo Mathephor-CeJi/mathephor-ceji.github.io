@@ -1,8 +1,8 @@
 <section class="content-section" aria-labelledby="cv-heading">
-  <h1 id="cv-heading" class="section-heading">{{ t.cv }}</h1>
+  <h1 id="cv-heading" class="section-heading">{% if page.lang == 'zh' %}简历{% else %}CV{% endif %}</h1>
 
   <section class="cv-section" aria-labelledby="education-heading">
-    <h2 id="education-heading">{{ t.education }}</h2>
+    <h2 id="education-heading">{% if page.lang == 'zh' %}教育经历{% else %}Education{% endif %}</h2>
     <div class="cv-entries">
       {% for entry in site.data.cv.education %}
         {% if page.lang == "zh" %}
@@ -21,7 +21,7 @@
   </section>
 
   <section class="cv-section" aria-labelledby="employment-heading">
-    <h2 id="employment-heading">{{ t.employment }}</h2>
+    <h2 id="employment-heading">{% if page.lang == 'zh' %}学术任职{% else %}Academic Employment{% endif %}</h2>
     <div class="cv-entries">
       {% for entry in site.data.cv.employment %}
         {% if page.lang == "zh" %}

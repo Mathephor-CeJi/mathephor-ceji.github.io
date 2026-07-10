@@ -1,9 +1,13 @@
 <section class="content-section" aria-labelledby="activities-heading">
-  <h1 id="activities-heading" class="section-heading">{{ t.activities }}</h1>
-  <p>{{ t.activities_intro }}</p>
+  <h1 id="activities-heading" class="section-heading">{% if page.lang == 'zh' %}学术活动{% else %}Academic activities{% endif %}</h1>
+  {% if page.lang == "zh" %}
+    <p>您可能曾在（或将在）以下活动中见到我：</p>
+  {% else %}
+    <p>You may have seen (or will see) me at the following activities:</p>
+  {% endif %}
 
   <section class="activity-section" aria-labelledby="organized-heading">
-    <h2 id="organized-heading">{{ t.organized }}</h2>
+    <h2 id="organized-heading">{% if page.lang == 'zh' %}共同组织的会议与研讨会{% else %}Conferences and seminars co-organized{% endif %}</h2>
     {% for item in site.data.activities.organized %}
       {% if page.lang == "zh" %}
         <p>{{ item.time.zh }}. {{ item.name.zh }}. {{ item.location.zh }}.</p>
@@ -14,7 +18,7 @@
   </section>
 
   <section class="activity-section" aria-labelledby="talks-heading">
-    <h2 id="talks-heading">{{ t.talks }}</h2>
+    <h2 id="talks-heading">{% if page.lang == 'zh' %}学术报告{% else %}Research talks{% endif %}</h2>
     {% for item in site.data.activities.talks %}
       {% if page.lang == "zh" %}
         <p>{{ item.time.zh }}. {{ item.name.zh }}. {{ item.location.zh }}.</p>
@@ -25,12 +29,12 @@
   </section>
 
   <section class="activity-section" aria-labelledby="visits-heading">
-    <h2 id="visits-heading">{{ t.visits }}</h2>
+    <h2 id="visits-heading">{% if page.lang == 'zh' %}学术访问{% else %}Academic visits{% endif %}</h2>
     {% for item in site.data.activities.visits %}
       {% if page.lang == "zh" %}
-        <p>{{ item.time.zh }}. {{ item.location.zh }}. {{ t.hosted_by }} {{ item.host.zh }}.</p>
+        <p>{{ item.time.zh }}. {{ item.location.zh }}. 接待人：{{ item.host.zh }}。</p>
       {% else %}
-        <p>{{ item.time.en }}. {{ item.location.en }}. {{ t.hosted_by }} {{ item.host.en }}.</p>
+        <p>{{ item.time.en }}. {{ item.location.en }}. Hosted by {{ item.host.en }}.</p>
       {% endif %}
     {% endfor %}
   </section>

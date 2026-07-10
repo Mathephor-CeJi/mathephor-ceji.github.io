@@ -1,10 +1,14 @@
 <section class="content-section" aria-labelledby="publications-heading">
   {% if include.featured == true %}
-    <h2 id="publications-heading" class="section-heading">{{ t.publications }}</h2>
+    <h2 id="publications-heading" class="section-heading">{% if page.lang == 'zh' %}论文{% else %}Publications{% endif %}</h2>
   {% else %}
-    <h1 id="publications-heading" class="section-heading">{{ t.publications }}</h1>
+    <h1 id="publications-heading" class="section-heading">{% if page.lang == 'zh' %}论文{% else %}Publications{% endif %}</h1>
   {% endif %}
-  <p>{{ t.publications_intro }} <a href="https://arxiv.org/a/ji_c_2.html">arXiv</a> {{ t.or }} <a href="https://mathscinet.ams.org/mathscinet/author?authorId=1554847">MathSciNet</a>.</p>
+  {% if page.lang == "zh" %}
+    <p>完整论文列表也可在 <a href="https://arxiv.org/a/ji_c_2.html">arXiv</a> 或 <a href="https://mathscinet.ams.org/mathscinet/author?authorId=1554847">MathSciNet</a> 查看。</p>
+  {% else %}
+    <p>A full list of my publications can be found on <a href="https://arxiv.org/a/ji_c_2.html">arXiv</a> or <a href="https://mathscinet.ams.org/mathscinet/author?authorId=1554847">MathSciNet</a>.</p>
+  {% endif %}
   <div class="publication-list">
     {% for item in site.data.publications %}
       {% if include.featured != true or item.featured %}

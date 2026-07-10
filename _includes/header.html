@@ -4,8 +4,8 @@
   {% assign home_url = "/" %}
 {% endif %}
 <header class="site-header">
-  <a class="site-brand" href="{{ home_url | relative_url }}">{{ t.site_title }}</a>
-  <nav class="site-nav" aria-label="{{ t.navigation }}">
+  <a class="site-brand" href="{{ home_url | relative_url }}">{% if page.lang == "zh" %}{{ site.title_zh }}{% else %}{{ site.title }}{% endif %}</a>
+  <nav class="site-nav" aria-label="{% if page.lang == 'zh' %}主导航{% else %}Main navigation{% endif %}">
     {% for item in site.data.navigation %}
       {% if page.lang == "zh" %}
         {% assign localized_item = item.zh %}
@@ -14,6 +14,6 @@
       {% endif %}
       <a class="nav-link{% if page.url == localized_item.url %} is-current{% endif %}" href="{{ localized_item.url | relative_url }}"{% if page.url == localized_item.url %} aria-current="page"{% endif %}>{{ localized_item.label }}</a>
     {% endfor %}
-    <a class="language-switch" href="{{ page.alternate_url | relative_url }}" lang="{% if page.lang == 'zh' %}en{% else %}zh-CN{% endif %}">{{ t.language_switch }}</a>
+    <a class="language-switch" href="{{ page.alternate_url | relative_url }}" lang="{% if page.lang == 'zh' %}en{% else %}zh-CN{% endif %}">{% if page.lang == 'zh' %}EN{% else %}中文{% endif %}</a>
   </nav>
 </header>

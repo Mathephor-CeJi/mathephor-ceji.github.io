@@ -1,3 +1,7 @@
 <footer class="site-footer">
-  <p>&copy; {{ site.time | date: "%Y" }} {{ t.site_title }} · {{ t.footer }}</p>
+  {% if page.lang == "zh" %}
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title_zh }} · 季策的学术主页</p>
+  {% else %}
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }} · Academic homepage of Ce Ji</p>
+  {% endif %}
 </footer>
