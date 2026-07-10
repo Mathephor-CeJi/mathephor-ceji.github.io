@@ -5,9 +5,16 @@
     <h2 id="education-heading">{{ t.education }}</h2>
     <div class="cv-entries">
       {% for entry in site.data.cv.education %}
+        {% if page.lang == "zh" %}
+          {% assign entry_title = entry.title.zh %}
+          {% assign entry_description = entry.description.zh %}
+        {% else %}
+          {% assign entry_title = entry.title.en %}
+          {% assign entry_description = entry.description.en %}
+        {% endif %}
         <article class="cv-entry">
-          <h3>{{ entry.title[page.lang] }}</h3>
-          <p>{{ entry.description[page.lang] }}</p>
+          <h3>{{ entry_title }}</h3>
+          <p>{{ entry_description }}</p>
         </article>
       {% endfor %}
     </div>
@@ -17,9 +24,16 @@
     <h2 id="employment-heading">{{ t.employment }}</h2>
     <div class="cv-entries">
       {% for entry in site.data.cv.employment %}
+        {% if page.lang == "zh" %}
+          {% assign entry_title = entry.title.zh %}
+          {% assign entry_description = entry.description.zh %}
+        {% else %}
+          {% assign entry_title = entry.title.en %}
+          {% assign entry_description = entry.description.en %}
+        {% endif %}
         <article class="cv-entry">
-          <h3>{{ entry.title[page.lang] }}</h3>
-          <p>{{ entry.description[page.lang] }}</p>
+          <h3>{{ entry_title }}</h3>
+          <p>{{ entry_description }}</p>
         </article>
       {% endfor %}
     </div>

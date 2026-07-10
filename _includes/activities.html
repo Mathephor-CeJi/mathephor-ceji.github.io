@@ -5,21 +5,33 @@
   <section class="activity-section" aria-labelledby="organized-heading">
     <h2 id="organized-heading">{{ t.organized }}</h2>
     {% for item in site.data.activities.organized %}
-      <p>{{ item.time[page.lang] }}. {{ item.name[page.lang] }}. {{ item.location[page.lang] }}.</p>
+      {% if page.lang == "zh" %}
+        <p>{{ item.time.zh }}. {{ item.name.zh }}. {{ item.location.zh }}.</p>
+      {% else %}
+        <p>{{ item.time.en }}. {{ item.name.en }}. {{ item.location.en }}.</p>
+      {% endif %}
     {% endfor %}
   </section>
 
   <section class="activity-section" aria-labelledby="talks-heading">
     <h2 id="talks-heading">{{ t.talks }}</h2>
     {% for item in site.data.activities.talks %}
-      <p>{{ item.time[page.lang] }}. {{ item.name[page.lang] }}. {{ item.location[page.lang] }}.</p>
+      {% if page.lang == "zh" %}
+        <p>{{ item.time.zh }}. {{ item.name.zh }}. {{ item.location.zh }}.</p>
+      {% else %}
+        <p>{{ item.time.en }}. {{ item.name.en }}. {{ item.location.en }}.</p>
+      {% endif %}
     {% endfor %}
   </section>
 
   <section class="activity-section" aria-labelledby="visits-heading">
     <h2 id="visits-heading">{{ t.visits }}</h2>
     {% for item in site.data.activities.visits %}
-      <p>{{ item.time[page.lang] }}. {{ item.location[page.lang] }}. {{ t.hosted_by }} {{ item.host[page.lang] }}.</p>
+      {% if page.lang == "zh" %}
+        <p>{{ item.time.zh }}. {{ item.location.zh }}. {{ t.hosted_by }} {{ item.host.zh }}.</p>
+      {% else %}
+        <p>{{ item.time.en }}. {{ item.location.en }}. {{ t.hosted_by }} {{ item.host.en }}.</p>
+      {% endif %}
     {% endfor %}
   </section>
 </section>

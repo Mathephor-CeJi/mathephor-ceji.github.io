@@ -1,5 +1,9 @@
 <!doctype html>
-{% assign t = site.data.ui[page.lang] %}
+{% if page.lang == "zh" %}
+  {% assign t = site.data.ui.zh %}
+{% else %}
+  {% assign t = site.data.ui.en %}
+{% endif %}
 <html lang="{{ t.locale }}">
   {% include head.html %}
   <body>
