@@ -14,12 +14,26 @@ layout: default
 
 {% include publications.html featured=true %}
 
+{% assign localized_posts = site.posts | where: "lang", page.lang %}
+
+{% if localized_posts.size > 0 %}
 <section class="content-section" aria-labelledby="updates-heading">
-  <h2 id="updates-heading" class="section-heading">{% if page.lang == 'zh' %}动态{% else %}Updates{% endif %}</h2>
-  {% assign localized_posts = site.posts | where: "lang", page.lang %}
+  <h2 id="updates-heading" class="section-heading">
+    {% if page.lang == 'zh' %}动态{% else %}Updates{% endif %}
+  </h2>
+
   <div class="update-list">
     {% for post in localized_posts %}
-      <p><a href="{{ post.url | relative_url }}">{{ post.title }}</a> — {% if page.lang == 'zh' %}{{ post.date | date: "%Y年%-m月%-d日" }}{% else %}{{ post.date | date: "%B %-d, %Y" }}{% endif %}</p>
+      <p>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        —
+        {% if page.lang == 'zh' %}
+          {{ post.date | date: "%Y年%-m月%-d日" }}
+        {% else %}
+          {{ post.date | date: "%B %-d, %Y" }}
+        {% endif %}
+      </p>
     {% endfor %}
   </div>
 </section>
+{% endif %}
