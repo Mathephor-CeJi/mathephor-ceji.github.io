@@ -20,6 +20,11 @@ organized:
       zh: 北京大学
 
 talks:
+
+  - time: { en: "March 3, 2026", zh: "2026年3月3日" }
+    name: { en: "Algebraic Geometry Seminar", zh: "代数几何研讨会" }
+    location: { en: "Xiamen University", zh: "厦门大学" }
+
   - time: { en: "October 15, 2025", zh: "2025年10月15日" }
     name: { en: "Mathematical Physics Seminar", zh: "数学物理研讨会" }
     location: { en: "SMS/IMAI, Wuhan University", zh: "武汉大学 SMS/IMAI" }
